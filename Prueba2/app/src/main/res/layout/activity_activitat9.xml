@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitat_9">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp"
+        tools:context=".Activitat_9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrícula"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="18dp" />
+
+        <CheckBox
+            android:id="@+id/mobils"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mòbils" />
+
+        <CheckBox
+            android:id="@+id/programacio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porgramació" />
+
+        <CheckBox
+            android:id="@+id/disseny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disseny" />
+
+        <RadioButton
+            android:id="@+id/mati"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Torn matí" />
+
+        <RadioButton
+            android:id="@+id/tardeRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Torn tarda" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

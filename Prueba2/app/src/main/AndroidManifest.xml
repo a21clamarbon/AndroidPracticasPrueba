@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Prueba2"
         tools:targetApi="31">
         <activity
+            android:name=".Activitat_13"
+            android:exported="false" />
+        <activity
+            android:name=".Activitat_12"
+            android:exported="false" />
+        <activity
+            android:name=".Activitat_11"
+            android:exported="false" />
+        <activity
+            android:name=".Activitat_10"
+            android:exported="false" />
+        <activity
+            android:name=".Activitat_9"
+            android:exported="false" />
+        <activity
+            android:name=".Activitat_8"
+            android:exported="false" />
+        <activity
             android:name=".Activitat1a7"
             android:exported="false" />
         <activity
